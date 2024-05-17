@@ -17,10 +17,10 @@ apt-get install python3 python3-pip
 
 Scanner un réseau :
 ```bash
-python3 scan.py -t réseau/cidr -p port -s service (tcp,udp,ping,syn,fin)
+python3 port-scan.py -t réseau/cidr -p port -s service (tcp,udp,ping,syn,fin)
 ```
 
 Scanner une adresse :
 ```bash
-python3 scan.py -t adresse -p port -s service (tcp,udp,ping,syn,fin)
+python3 port-scan.py -t adresse -p port -s service (tcp,udp,ping,syn,fin)
 ```
